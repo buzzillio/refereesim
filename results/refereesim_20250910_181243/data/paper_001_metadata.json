@@ -1,0 +1,30 @@
+{
+  "paper_id": "paper_001",
+  "study_type": "ab_test",
+  "title": "Optimizing User Engagement Through Interface Design: An A/B Testing Analysis",
+  "ground_truth_data": {
+    "n_a": 812,
+    "n_b": 1179,
+    "conv_a": 61,
+    "conv_b": 110,
+    "prop_a": 0.07512315270935961,
+    "prop_b": 0.09329940627650551,
+    "z_stat": 1.4224636288371026,
+    "p_value": 0.15489170290351995,
+    "effect_size": 0.018176253567145903,
+    "pooled_prop": 0.08588648920140633,
+    "se": 0.012778009362534926
+  },
+  "errors": [
+    {
+      "category": "sample_size_misreport",
+      "difficulty": "easy",
+      "location": "Abstract - sample size",
+      "original_text": "The study involved 1991 participants",
+      "modified_text": "The study involved 2068 participants",
+      "explanation": "Sample size should be 1991, not 2068",
+      "confidence": 0.9
+    }
+  ],
+  "is_control": false
+}

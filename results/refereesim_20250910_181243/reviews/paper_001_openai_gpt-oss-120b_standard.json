@@ -1,0 +1,8 @@
+{
+  "paper_id": "paper_001",
+  "model_name": "openai/gpt-oss-120b",
+  "prompt_style": "standard",
+  "findings": [],
+  "overall_assessment": "Error during review: [Errno 2] No such file or directory: './results/refereesim_20250910_181243/cache/paper_001_openai/gpt-oss-120b_standard.json'",
+  "timestamp": "2025-09-10T18:14:24.434927"
+}

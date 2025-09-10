@@ -1,0 +1,39 @@
+{
+  "paper_id": "paper_010",
+  "study_type": "ab_test",
+  "title": "Optimizing User Engagement Through Interface Design: An A/B Testing Analysis",
+  "ground_truth_data": {
+    "n_a": 856,
+    "n_b": 878,
+    "conv_a": 102,
+    "conv_b": 112,
+    "prop_a": 0.1191588785046729,
+    "prop_b": 0.1275626423690205,
+    "z_stat": 0.5319292191121157,
+    "p_value": 0.5947750192353973,
+    "effect_size": 0.008403763864347616,
+    "pooled_prop": 0.12341407151095732,
+    "se": 0.015798650576809806
+  },
+  "errors": [
+    {
+      "category": "fake_citation",
+      "difficulty": "easy",
+      "location": "References section",
+      "original_text": "[Original references]",
+      "modified_text": "[3] Johnson, M. (2024). Imaginary research findings. *Made-up Review*, 15(5), 100-125.",
+      "explanation": "Added non-existent citation that cannot be verified",
+      "confidence": 0.7
+    },
+    {
+      "category": "sample_size_misreport",
+      "difficulty": "hard",
+      "location": "Abstract - sample size",
+      "original_text": "The study involved 1734 participants",
+      "modified_text": "The study involved 1753 participants",
+      "explanation": "Sample size should be 1734, not 1753",
+      "confidence": 0.9
+    }
+  ],
+  "is_control": false
+}

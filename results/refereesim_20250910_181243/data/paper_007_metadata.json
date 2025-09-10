@@ -1,0 +1,29 @@
+{
+  "paper_id": "paper_007",
+  "study_type": "two_group_comparison",
+  "title": "Comparative Effectiveness of Two Training Methods on Performance Outcomes",
+  "ground_truth_data": {
+    "n1": 90,
+    "n2": 109,
+    "mean1": 57.97272006519509,
+    "mean2": 65.73841160759774,
+    "std1": 12.867165262897887,
+    "std2": 13.32026765947547,
+    "t_stat": -4.156586920772682,
+    "p_value": 4.815273886687508e-05,
+    "effect_size": 0.7947616753182976,
+    "pooled_std": 12.47999831897865
+  },
+  "errors": [
+    {
+      "category": "claim_contradicts_table",
+      "difficulty": "easy",
+      "location": "Results section - group comparison claim",
+      "original_text": "The enhanced training group performed significantly better than the traditional training group",
+      "modified_text": "traditional training group performed better than the enhanced training group",
+      "explanation": "Text claim contradicts the numerical results in the table",
+      "confidence": 0.95
+    }
+  ],
+  "is_control": false
+}

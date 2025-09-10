@@ -1,0 +1,41 @@
+{
+  "paper_id": "paper_008",
+  "study_type": "linear_regression",
+  "title": "Predicting Performance Outcomes Using Continuous Predictors: A Regression Analysis",
+  "ground_truth_data": {
+    "n": 134,
+    "slope": 0.611121077224357,
+    "intercept": 27.505486759588173,
+    "r_value": 0.8499589290233501,
+    "r_squared": 0.7224301810265203,
+    "p_value": 1.4885520373049648e-38,
+    "std_err": 0.03297072350994315,
+    "mean_x": 25.651106648888454,
+    "mean_y": 43.18141868685375,
+    "std_x": 14.810603792526015,
+    "std_y": 10.64883470832153,
+    "true_slope": 0.5992829078173209,
+    "true_intercept": 28.2627224837109
+  },
+  "errors": [
+    {
+      "category": "fake_citation",
+      "difficulty": "easy",
+      "location": "References section",
+      "original_text": "[Original references]",
+      "modified_text": "[3] Johnson, M. (2024). Imaginary research findings. *Made-up Review*, 15(5), 100-125.",
+      "explanation": "Added non-existent citation that cannot be verified",
+      "confidence": 0.7
+    },
+    {
+      "category": "fake_citation",
+      "difficulty": "hard",
+      "location": "References section",
+      "original_text": "[Original references]",
+      "modified_text": "[3] Smith, J. & Doe, A. (2024). Non-existent study on statistical methods. *Fake Journal*, 999(1), 1-20.",
+      "explanation": "Added non-existent citation that cannot be verified",
+      "confidence": 0.7
+    }
+  ],
+  "is_control": false
+}

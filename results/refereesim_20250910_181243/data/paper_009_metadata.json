@@ -1,0 +1,29 @@
+{
+  "paper_id": "paper_009",
+  "study_type": "two_group_comparison",
+  "title": "Comparative Effectiveness of Two Training Methods on Performance Outcomes",
+  "ground_truth_data": {
+    "n1": 95,
+    "n2": 115,
+    "mean1": 62.48572680019823,
+    "mean2": 69.50633105914687,
+    "std1": 10.773440001564431,
+    "std2": 12.124675267950634,
+    "t_stat": -4.390450375197616,
+    "p_value": 1.799486931339118e-05,
+    "effect_size": 0.6735069058261289,
+    "pooled_std": 10.999036791062057
+  },
+  "errors": [
+    {
+      "category": "fake_citation",
+      "difficulty": "easy",
+      "location": "References section",
+      "original_text": "[Original references]",
+      "modified_text": "[3] Smith, J. & Doe, A. (2024). Non-existent study on statistical methods. *Fake Journal*, 999(1), 1-20.",
+      "explanation": "Added non-existent citation that cannot be verified",
+      "confidence": 0.7
+    }
+  ],
+  "is_control": false
+}

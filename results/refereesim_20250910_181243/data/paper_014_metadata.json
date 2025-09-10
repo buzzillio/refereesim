@@ -1,0 +1,22 @@
+{
+  "paper_id": "paper_014",
+  "study_type": "linear_regression",
+  "title": "Predicting Performance Outcomes Using Continuous Predictors: A Regression Analysis",
+  "ground_truth_data": {
+    "n": 102,
+    "slope": 0.7019815724348745,
+    "intercept": 16.378321488108124,
+    "r_value": 0.7867923207912998,
+    "r_squared": 0.6190421560561596,
+    "p_value": 1.1123912160242924e-22,
+    "std_err": 0.05506860300139469,
+    "mean_x": 26.657917128554974,
+    "mean_y": 35.09168807184972,
+    "std_x": 14.275073538837239,
+    "std_y": 12.736319743611867,
+    "true_slope": 0.6678015879813426,
+    "true_intercept": 17.25961534361867
+  },
+  "errors": [],
+  "is_control": false
+}

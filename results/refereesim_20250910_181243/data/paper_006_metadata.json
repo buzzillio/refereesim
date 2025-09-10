@@ -1,0 +1,22 @@
+{
+  "paper_id": "paper_006",
+  "study_type": "ml_classification",
+  "title": "Machine Learning Approach for Automated Disease Classification",
+  "ground_truth_data": {
+    "n_samples": 1159,
+    "n_class_0": 680,
+    "n_class_1": 479,
+    "tp": 421,
+    "tn": 558,
+    "fp": 122,
+    "fn": 58,
+    "accuracy": 0.8446937014667817,
+    "precision": 0.7753222836095764,
+    "recall": 0.8789144050104384,
+    "f1_score": 0.8238747553816047,
+    "sensitivity": 0.8796070770493187,
+    "specificity": 0.8218262011333977
+  },
+  "errors": [],
+  "is_control": true
+}
